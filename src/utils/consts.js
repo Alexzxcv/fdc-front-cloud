@@ -1,0 +1,7 @@
+export const ADMIN_ROUTE = '/admin'
+export const ANALYTICS_ROUTE = '/analytics'
+export const AUTH_ROUTE = '/auth'
+export const MACHINEINFO_ROUTE = '/machineinfo'
+export const MACHINELIST_ROUTE = '/machinelist'
+export const DASHBOARD_ROUTE = '/dashboard'
+export const SETTINGS_ROUTE = '/settings'

@@ -1,0 +1,70 @@
+@import 'src/assets/base.scss';
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: var(--base-gap);
+    grid-template-columns: 14rem auto 23rem;
+}
+
+
+.profile-photo {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.wrapper {
+    // height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+    }
+    
+    .advanced {
+        position: sticky;
+        top: 1.4rem;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+
+    .close {
+        display: none;
+    }
+}
+
+
+
+.rightbar {
+    position: sticky;
+    .top {
+        display: flex;
+        justify-content: end;
+        gap: 2rem;
+    }
+
+    .profile {
+        display: flex;
+        gap: 1.5rem;
+    }
+.advanced {
+    margin-top: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+}
+
+.main-wrapper {
+    margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

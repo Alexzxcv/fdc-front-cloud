@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    &:hover {
+      background-color: var(--color-info-light);
+    }
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 4rem;
+      padding: 1rem;
+    }
+  }
+}
