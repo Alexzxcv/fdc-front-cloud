@@ -10,6 +10,7 @@ const MachineList = () => {
             voltage: 24,
             model: 'T7',
             manufacturer: 'Tennant',
+            device: 'tl101'
         },
         {
             serialNumber: 4321,
@@ -17,6 +18,7 @@ const MachineList = () => {
             voltage: 36,
             model: 'B90',
             manufacturer: 'Karcher',
+            device: 'tl110'
         },
     ]
     return (

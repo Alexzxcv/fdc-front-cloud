@@ -9,7 +9,7 @@ const Auth = observer(() => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        user.isAuth ? navigate("..", { relative: "/" }) : navigate("..", { relative: "auth" })
+        user.isAuth ? navigate("..", { relative: "/machinelist" }) : navigate("..", { relative: "auth" })
 });
     return (
         <div className={classes.container}>

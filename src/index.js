@@ -21,7 +21,7 @@ const router = createBrowserRouter([
                 element: <MachineList/>,
             },
             {
-                path: "dashboard/:id",
+                path: ":device/:id",
                 element: <Dashboard/>,
             },
             {
