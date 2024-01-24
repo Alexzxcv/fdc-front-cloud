@@ -1,5 +1,5 @@
 import React from 'react';
-import MachineCard from "../../components/MachineCard/MachineCard";
+import MachineCard from "../components/MachineCard";
 import classes from './MachineList.module.scss';
 
 const MachineList = () => {
@@ -26,7 +26,7 @@ const MachineList = () => {
             <h1>Список машин</h1>
             <div className={classes.container}>
                 <div className={classes.name}>
-                    <div>Серийный номер</div>
+                    <div>Серийный<br/>номер</div>
                     <div>Состояние</div>
                     <div>Напряжение</div>
                     <div>Модель</div>

@@ -1,4 +1,4 @@
-import Auth from "./pages/Auth/Auth";
+import Auth from "./pages/Auth";
 import {
     ADMIN_ROUTE,
     ANALYTICS_ROUTE,
@@ -7,8 +7,8 @@ import {
     MACHINEINFO_ROUTE,
     MACHINELIST_ROUTE, SETTINGS_ROUTE
 } from "./utils/consts";
-import Dashboard from "./pages/Dashboard/Dashboard";
-import MachineList from "./pages/MachineList/MachineList";
+import Dashboard from "./pages/Dashboard";
+import MachineList from "./pages/MachineList";
 import MachineInfo from "./pages/MachineInfo";
 import Analytics from "./pages/Analytics";
 import Admin from "./pages/Admin";

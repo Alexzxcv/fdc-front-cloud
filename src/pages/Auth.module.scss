@@ -9,13 +9,13 @@
     margin: 1rem;
   }
 
-  form {
+  .form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    &:last-child {
+    &:first-child {
       align-items: end;
     }
     button {

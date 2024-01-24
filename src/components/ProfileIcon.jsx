@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './ProfileIcon.module.scss';
-import account from '../../assets/account.jpg';
+import account from '../assets/account.jpg';
 
 const ProfileIcon = () => {
     return (
